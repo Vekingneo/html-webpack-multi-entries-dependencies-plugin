@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-multi-entries-dependencies-plugin",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Help to extract dependencies of entries while using html-webpack-plugin",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "enties",
     "dependencies"
   ],
-  "author": "Vekingneo (https://github.com/Vekingneo)",
+  "author": "vekingneo (https://github.com/vekingneo)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Vekingneo/html-webpack-multi-entries-dependencies-plugin/issues"
