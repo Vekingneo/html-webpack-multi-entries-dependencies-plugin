@@ -1,5 +1,7 @@
 # html-webpack-multi-entries-dependencies-plugin
 
+[![npm](https://img.shields.io/npm/dw/localeval.svg)](https://www.npmjs.com/package/html-webpack-multi-entries-dependencies-plugin)
+
 This is an extension plugin for the [webpack](http://webpack.github.io) plugin [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin). 
 Make sure you have html-webpack-plugin used otherwise you won't need to use this, and only supports webpack 4 currently.
 
