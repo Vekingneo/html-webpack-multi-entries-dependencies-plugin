@@ -41,8 +41,8 @@ assume you have webpack entry configured as:
 ```javascript
 	entry:{
 	    business:'./src/business.js',
-        workbench:'./src/workbench.js',
-        profile:'./src/profile.js'
+            workbench:'./src/workbench.js',
+            profile:'./src/profile.js'
 	}
 ```
 and ```html-webpack-plugin``` are configured as:
@@ -60,7 +60,7 @@ and ```html-webpack-plugin``` are configured as:
       inject:true
     }),
     new HtmlWebpackPlugin({
-      filename: 'workbench.html',
+      filename: 'profile.html',
       template: './src/html/profile.html',
       chunks: ['profile'], //instead of define chunks to include, define your entry here
       inject:true
