@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/dw/html-webpack-multi-entries-dependencies-plugin.svg)](https://www.npmjs.com/package/html-webpack-multi-entries-dependencies-plugin)
 
 This is an extension plugin for the [webpack](http://webpack.github.io) plugin [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin). 
-Make sure you have ```html-webpack-plugin``` used otherwise you won't need to use this, and only supports webpack 4 currently.
+Make sure you have ```html-webpack-plugin``` used otherwise you won't need to use this, and only supports ```webpack 4``` currently.
 
 This plugin helps to extract dependencies of each entry file and inject them and their dependencies into aimed html files.It is particularly helpful while having multiple entries and each entry refers to respective html file. 
 
@@ -14,7 +14,7 @@ By adding this plugin play with ```html-webpack-plugin```, the building progress
 
 Installation
 ------------
-You must be running webpack 4 and html-webpack-plugin used
+You must be using ```webpack 4``` and ```html-webpack-plugin```
 
 Install the plugin with npm:
 ```shell
